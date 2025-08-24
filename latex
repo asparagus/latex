@@ -1,0 +1,3 @@
+echo "Running for $1.tex"
+nvim "$1.tex" && pdflatex "$1.tex" && open "$1.pdf"
+
